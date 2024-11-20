@@ -1,0 +1,37 @@
+/* Style the BorderPane background */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d9e7ff);
+}
+
+/* Style the GridPane */
+.grid-pane {
+    -fx-padding: 10;
+    -fx-background-color: #003366;
+    -fx-border-color: #b3d9ff;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+
+/* Style the buttons or tiles inside the GridPane */
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333;
+    -fx-border-color: #b3d9ff;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-font-size: 24px;
+    -fx-font-family: "Arial";
+    -fx-padding: 10;
+    -fx-pref-width: 60;
+    -fx-pref-height: 60;
+}
+
+.button:hover {
+    -fx-background-color: #e6f7ff;
+    -fx-text-fill: #000;
+}
+
+.button:pressed {
+    -fx-background-color: #99ccff;
+    -fx-text-fill: #fff;
+}
